@@ -366,6 +366,15 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
+        },
+        "x-ms-search-description": {
+          "$ref": "#/definitions/x-ms-search-description"
         }
       }
     },
@@ -558,6 +567,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       },
       "patternProperties": {
@@ -621,6 +636,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       },
       "additionalProperties": false
@@ -737,7 +758,13 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
-        }
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
+        },
       }
     },
     "queryParameterSubSchema": {
@@ -863,6 +890,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       }
     },
@@ -984,6 +1017,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       }
     },
@@ -1113,6 +1152,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       }
     },
@@ -1300,6 +1345,12 @@
         },
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
+        },
+        "x-ms-llm-name": {
+          "$ref": "#/definitions/x-ms-llm-name"
+        },
+        "x-ms-llm-description": {
+          "$ref": "#/definitions/x-ms-llm-description"
         }
       },
       "additionalProperties": false
@@ -2555,6 +2606,21 @@
         "advanced",
         "internal"
       ]
+    },
+    "x-ms-llm-name": {
+      "title": "The llm-friendly name for an entity",
+      "description": "Use snake case and avoid special characters for the best results with llm models.",
+      "type": "string"
+    },
+    "x-ms-llm-description": {
+      "title": "The llm-friendly usage description for an entity",
+      "description": "The description for the entity that explains how the entity is used.",
+      "type": "string"
+    },
+    "x-ms-search-description": {
+      "title": "The search-friendly description for an entity; used for indexing and discovery scenarios",
+      "description": "A short description for the entity that explains how the entity is used. Should include important keywords and scenarios that a user might search for.",
+      "type": "string"
     },
     "x-ms-url-encoding": {
       "title": "Encoding style to use for this parameter",
