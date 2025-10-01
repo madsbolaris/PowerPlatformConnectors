@@ -367,8 +367,8 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-action-group": {
-          "$ref": "#/definitions/x-ms-action-group"
+        "x-ms-action-groups": {
+          "$ref": "#/definitions/x-ms-action-groups"
         }
       }
     },
@@ -2559,7 +2559,7 @@
         "internal"
       ]
     },
-    "x-ms-action-group": {
+    "x-ms-action-groups": {
       "title": "The list of groups an action belongs to",
       "description": "The domain and scope of the groups an action belongs to. Actions can belong to multiple groups. For example, the send email action would belong to the email.create and email.destructive groups.",
       "type": "array",
