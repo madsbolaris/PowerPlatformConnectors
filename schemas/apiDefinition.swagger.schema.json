@@ -367,11 +367,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       }
     },
@@ -565,11 +565,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       },
       "patternProperties": {
@@ -634,11 +634,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       },
       "additionalProperties": false
@@ -756,11 +756,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         },
       }
     },
@@ -888,11 +888,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       }
     },
@@ -1015,11 +1015,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       }
     },
@@ -1150,11 +1150,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       }
     },
@@ -1343,11 +1343,11 @@
         "x-ms-visibility": {
           "$ref": "#/definitions/x-ms-visibility"
         },
-        "x-ms-llm-name": {
-          "$ref": "#/definitions/x-ms-llm-name"
+        "x-ms-name-for-agent": {
+          "$ref": "#/definitions/x-ms-name-for-agent"
         },
-        "x-ms-llm-description": {
-          "$ref": "#/definitions/x-ms-llm-description"
+        "x-ms-description-for-agent": {
+          "$ref": "#/definitions/x-ms-description-for-agent"
         }
       },
       "additionalProperties": false
@@ -2604,12 +2604,12 @@
         "internal"
       ]
     },
-    "x-ms-llm-name": {
+    "x-ms-name-for-agent": {
       "title": "The llm-friendly name for an entity",
       "description": "Use snake case and avoid special characters for the best results with llm models.",
       "type": "string"
     },
-    "x-ms-llm-description": {
+    "x-ms-description-for-agent": {
       "title": "The llm-friendly usage description for an entity",
       "description": "The description for the entity that explains how the entity is used.",
       "type": "string"
